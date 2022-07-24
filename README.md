@@ -10,6 +10,7 @@ Important notes:
 * Only latest version of this plugin is supported
 * This plugin can't be reloaded or loaded not at server startup
 * This fork is a WORK IN PROGRESS.
+* The only langauge currently supported by this fork is English (US).
 
 Known issues:
 * [Anything that is not latest] Items in creative mode may not work as expected, or may not work at all
