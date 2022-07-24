@@ -117,10 +117,10 @@ dependencies {
 		)
 	])
 	compileOnly group: 'io.netty', name: 'netty-all', version: '4.1.70.Final'
-	compileOnly group: 'com.mojang', name: 'authlib', version: '3.2.38'
+	compileOnly group: 'com.mojang', name: 'authlib', version: '3.7.43'
 	compileOnly group: 'com.mojang', name: 'brigadier', version: '1.0.18'
 
-	implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12'
+	implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.11'
 	implementation group: 'com.google.code.findbugs', name: 'jsr305', version: '3.0.2'
 
 	annotationProcessor group: 'com.github.ProtocolSupport', name: 'ProtocolSupportBuildProcessor', version: '907b3e20db'
@@ -129,9 +129,9 @@ dependencies {
 	testImplementation ManualGradleDependencySupplier.supplyDependecies([
 		spigotDependencySupplier
 	])
-	testImplementation group: 'it.unimi.dsi', name: 'fastutil', version: '8.5.8'
-	testImplementation group: 'io.netty', name: 'netty-all', version: '4.1.78.Final'
-	testImplementation group: 'com.mojang', name: 'authlib', version: '3.5.41'
+	testImplementation group: 'it.unimi.dsi', name: 'fastutil', version: '8.5.6'
+	testImplementation group: 'io.netty', name: 'netty-all', version: '4.1.70.Final'
+	testImplementation group: 'com.mojang', name: 'authlib', version: '3.3.39'
 	testImplementation group: 'com.mojang', name: 'brigadier', version: '1.0.18'
 	testImplementation group: 'com.mojang', name: 'datafixerupper', version: '5.0.28'
 	testImplementation group: 'com.mojang', name: 'javabridge', version: '1.2.24'
@@ -139,11 +139,11 @@ dependencies {
 	testImplementation group: 'org.apache.logging.log4j', name: 'log4j', version: '2.18.0', ext: 'pom'
 	testImplementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.18.0'
 	testImplementation group: 'org.apache.logging.log4j', name: 'log4j-iostreams', version: '2.18.0'
-	testImplementation group: 'net.sf.jopt-simple', name: 'jopt-simple', version: '6.0-alpha-3'
+	testImplementation group: 'net.sf.jopt-simple', name: 'jopt-simple', version: '5.0.4'
 	testImplementation group: 'jline', name: 'jline', version: '2.12.1'
-	testImplementation group: 'com.github.oshi', name: 'oshi-core', version: '6.2.1'
-	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
-	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+	testImplementation group: 'com.github.oshi', name: 'oshi-core', version: '5.8.5'
+	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.2.0'
+	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.2.0'
 }
 
 compileJava {
