@@ -18,7 +18,7 @@ Known issues:
 Known wontfix issues:
 * [Anything that is not latest] Stats are not sent
 * [1.8 and earlier] Can't control vehicle (Not directly translatable at network level, too much work to implement serverside)
-* [1.4.6 and earlier] Server shows up as "incompatible" in the server list (Impossible to fix due to the lack of an way to verify the client version during server list ping)
+* [1.4.5 and earlier] Server shows up as "incompatible" in the server list (Impossible to fix due to the lack of an way to verify the client version during server list ping)
 
 ---
 
