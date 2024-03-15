@@ -60,7 +60,29 @@ public class InitialPacketDecoder extends SimpleChannelInboundHandler<ByteBuf> {
 	protected static final EnumMap<ProtocolVersion, IPipelineBuilder> pipelineBuilders = new EnumMap<>(ProtocolVersion.class);
 	static {
 		pipelineBuilders.put(ProtocolVersion.MINECRAFT_FUTURE, new protocolsupport.protocol.pipeline.version.v_f.PipelineBuilder());
+		/*IPipelineBuilder builder20r3 = new protocolsupport.protocol.pipeline.version.v_1_20.r3.PipelineBuilder();
+		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_20_5, builder20r3);
+		IPipelineBuilder builder20r2 = new protocolsupport.protocol.pipeline.version.v_1_20.r2.PipelineBuilder();
+		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_20_3, builder20r2);
+		IPipelineBuilder builder20r1 = new protocolsupport.protocol.pipeline.version.v_1_20.r1.PipelineBuilder();
+		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_20_2, builder20r1);
+		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_20, builder20r1);
+		IPipelineBuilder builder19r3 = new protocolsupport.protocol.pipeline.version.v_1_19.r3.PipelineBuilder();
+		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_19_4, builder19r3);
+		IPipelineBuilder builder19r2 = new protocolsupport.protocol.pipeline.version.v_1_19.r2.PipelineBuilder();
+		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_19_3, builder19r2);
+		IPipelineBuilder builder19r1 = new protocolsupport.protocol.pipeline.version.v_1_19.r1.PipelineBuilder();
+		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_19_1, builder19r1);
+		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_19, builder19r1);*/
 		IPipelineBuilder builder18 = new protocolsupport.protocol.pipeline.version.v_1_18.PipelineBuilder();
+		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_20_5, builder18);
+		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_20_3, builder18);
+		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_20_2, builder18);
+		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_20, builder18);
+		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_19_4, builder18);
+		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_19_3, builder18);
+		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_19_1, builder18);
+		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_19, builder18);
 		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_18_2, builder18);
 		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_18, builder18);
 		pipelineBuilders.put(ProtocolVersion.MINECRAFT_1_17_1, new protocolsupport.protocol.pipeline.version.v_1_17.r2.PipelineBuilder());

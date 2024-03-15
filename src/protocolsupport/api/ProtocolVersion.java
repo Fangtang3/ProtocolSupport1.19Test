@@ -19,11 +19,19 @@ import protocolsupportbuildprocessor.Preload;
 public enum ProtocolVersion {
 
 	MINECRAFT_FUTURE(-1, ProtocolType.PC),
+	MINECRAFT_1_20_5(766, ProtocolType.PC, "1.20.5-Beta"),
+	MINECRAFT_1_20_3(765, ProtocolType.PC, "1.20.3/1.20.4"),
+	MINECRAFT_1_20_2(764, ProtocolType.PC, "1.20.2"),
+	MINECRAFT_1_20(763, ProtocolType.PC, "1.20/1.20.1"),
+	MINECRAFT_1_19_4(762, ProtocolType.PC, "1.18.4"),
+	MINECRAFT_1_19_3(761, ProtocolType.PC, "1.19.3"),
+	MINECRAFT_1_19_1(760, ProtocolType.PC, "1.19.1/1.19.2"),
+	MINECRAFT_1_19(759, ProtocolType.PC, "1.19"),
 	MINECRAFT_1_18_2(758, ProtocolType.PC, "1.18.2"),
-	MINECRAFT_1_18(757, ProtocolType.PC, "1.18-1.18.1"),
+	MINECRAFT_1_18(757, ProtocolType.PC, "1.18/1.18.1"),
 	MINECRAFT_1_17_1(756, ProtocolType.PC, "1.17.1"),
 	MINECRAFT_1_17(755, ProtocolType.PC, "1.17"),
-	MINECRAFT_1_16_4(754, ProtocolType.PC, "1.16.4-1.16.5"),
+	MINECRAFT_1_16_4(754, ProtocolType.PC, "1.16.4/1.16.5"),
 	MINECRAFT_1_16_3(753, ProtocolType.PC, "1.16.3"),
 	MINECRAFT_1_16_2(751, ProtocolType.PC, "1.16.2"),
 	MINECRAFT_1_16_1(736, ProtocolType.PC, "1.16.1"),
@@ -42,16 +50,16 @@ public enum ProtocolVersion {
 	MINECRAFT_1_12_2(340, ProtocolType.PC, "1.12.2"),
 	MINECRAFT_1_12_1(338, ProtocolType.PC, "1.12.1"),
 	MINECRAFT_1_12(335, ProtocolType.PC, "1.12"),
-	MINECRAFT_1_11_1(316, ProtocolType.PC, "1.11.2"),
-	MINECRAFT_1_11(315, ProtocolType.PC, "1.11-1.11.1"),
-	MINECRAFT_1_10(210, ProtocolType.PC, "1.10-1.10.2"),
-	MINECRAFT_1_9_4(110, ProtocolType.PC, "1.9.4"),
+	MINECRAFT_1_11_1(316, ProtocolType.PC, "1.11.1/1.11.2"),
+	MINECRAFT_1_11(315, ProtocolType.PC, "1.11"),
+	MINECRAFT_1_10(210, ProtocolType.PC, "1.10.x"),
+	MINECRAFT_1_9_4(110, ProtocolType.PC, "1.9.3/1.9.4"),
 	MINECRAFT_1_9_2(109, ProtocolType.PC, "1.9.2"),
 	MINECRAFT_1_9_1(108, ProtocolType.PC, "1.9.1"),
 	MINECRAFT_1_9(107, ProtocolType.PC, "1.9"),
-	MINECRAFT_1_8(47, ProtocolType.PC, "1.8-1.8.9"),
+	MINECRAFT_1_8(47, ProtocolType.PC, "1.8.x"),
 	MINECRAFT_1_7_10(5, ProtocolType.PC, "1.7.6-1.7.10"),
-	MINECRAFT_1_7_5(4, ProtocolType.PC, "1.7-1.7.5"),
+	MINECRAFT_1_7_5(4, ProtocolType.PC, "1.7.2-1.7.5"),
 	MINECRAFT_1_6_4(78, ProtocolType.PC, "1.6.4"),
 	MINECRAFT_1_6_2(74, ProtocolType.PC, "1.6.2-1.6.3"),
 	MINECRAFT_1_6_1(73, ProtocolType.PC, "1.6-1.6.1"),
@@ -289,7 +297,7 @@ public enum ProtocolVersion {
 	public static @Nonnull ProtocolVersion getLatest(ProtocolType type) {
 		switch (type) {
 			case PC: {
-				return MINECRAFT_1_18_2;
+				return MINECRAFT_1_20_5;
 			}
 			default: {
 				throw new IllegalArgumentException(MessageFormat.format("No supported versions for protocol type {0}", type));
