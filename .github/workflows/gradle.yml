@@ -16,7 +16,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-16.04
+    runs-on: macos-14
     permissions:
       contents: read
 
@@ -27,6 +27,7 @@ jobs:
       with:
         java-version: '21'
         distribution: 'semeru'
+        architecture: aarch64
 
     # Configure Gradle for optimal use in GiHub Actions, including caching of downloaded dependencies.
     # See: https://github.com/gradle/actions/blob/main/setup-gradle/README.md
@@ -49,7 +50,7 @@ jobs:
 
   dependency-submission:
 
-    runs-on: ubuntu-16.04
+    runs-on: macos-14
     permissions:
       contents: write
 
@@ -60,6 +61,7 @@ jobs:
       with:
         java-version: '21'
         distribution: 'semeru'
+        architecture: aarch64
 
     # Generates and submits a dependency graph, enabling Dependabot Alerts for all project dependencies.
     # See: https://github.com/gradle/actions/blob/main/dependency-submission/README.md
