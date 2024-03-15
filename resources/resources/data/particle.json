@@ -97,278 +97,310 @@
   },
   {
     "id": 24,
-    "name": "sonic_boom"
+    "name": "gust"
   },
   {
     "id": 25,
-    "name": "falling_dust"
+    "name": "gust_emitter"
   },
   {
     "id": 26,
-    "name": "firework"
+    "name": "sonic_boom"
   },
   {
     "id": 27,
-    "name": "fishing"
+    "name": "falling_dust"
   },
   {
     "id": 28,
-    "name": "flame"
+    "name": "firework"
   },
   {
     "id": 29,
-    "name": "sculk_soul"
+    "name": "fishing"
   },
   {
     "id": 30,
-    "name": "sculk_charge"
+    "name": "flame"
   },
   {
     "id": 31,
-    "name": "sculk_charge_pop"
+    "name": "cherry_leaves"
   },
   {
     "id": 32,
-    "name": "soul_fire_flame"
+    "name": "sculk_soul"
   },
   {
     "id": 33,
-    "name": "soul"
+    "name": "sculk_charge"
   },
   {
     "id": 34,
-    "name": "flash"
+    "name": "sculk_charge_pop"
   },
   {
     "id": 35,
-    "name": "happy_villager"
+    "name": "soul_fire_flame"
   },
   {
     "id": 36,
-    "name": "composter"
+    "name": "soul"
   },
   {
     "id": 37,
-    "name": "heart"
+    "name": "flash"
   },
   {
     "id": 38,
-    "name": "instant_effect"
+    "name": "happy_villager"
   },
   {
     "id": 39,
-    "name": "item"
+    "name": "composter"
   },
   {
     "id": 40,
-    "name": "vibration"
+    "name": "heart"
   },
   {
     "id": 41,
-    "name": "item_slime"
+    "name": "instant_effect"
   },
   {
     "id": 42,
-    "name": "item_snowball"
+    "name": "item"
   },
   {
     "id": 43,
-    "name": "large_smoke"
+    "name": "vibration"
   },
   {
     "id": 44,
-    "name": "lava"
+    "name": "item_slime"
   },
   {
     "id": 45,
-    "name": "mycelium"
+    "name": "item_snowball"
   },
   {
     "id": 46,
-    "name": "note"
+    "name": "large_smoke"
   },
   {
     "id": 47,
-    "name": "poof"
+    "name": "lava"
   },
   {
     "id": 48,
-    "name": "portal"
+    "name": "mycelium"
   },
   {
     "id": 49,
-    "name": "rain"
+    "name": "note"
   },
   {
     "id": 50,
-    "name": "smoke"
+    "name": "poof"
   },
   {
     "id": 51,
-    "name": "sneeze"
+    "name": "portal"
   },
   {
     "id": 52,
-    "name": "spit"
+    "name": "rain"
   },
   {
     "id": 53,
-    "name": "squid_ink"
+    "name": "smoke"
   },
   {
     "id": 54,
-    "name": "sweep_attack"
+    "name": "white_smoke"
   },
   {
     "id": 55,
-    "name": "totem_of_undying"
+    "name": "sneeze"
   },
   {
     "id": 56,
-    "name": "underwater"
+    "name": "spit"
   },
   {
     "id": 57,
-    "name": "splash"
+    "name": "squid_ink"
   },
   {
     "id": 58,
-    "name": "witch"
+    "name": "sweep_attack"
   },
   {
     "id": 59,
-    "name": "bubble_pop"
+    "name": "totem_of_undying"
   },
   {
     "id": 60,
-    "name": "current_down"
+    "name": "underwater"
   },
   {
     "id": 61,
-    "name": "bubble_column_up"
+    "name": "splash"
   },
   {
     "id": 62,
-    "name": "nautilus"
+    "name": "witch"
   },
   {
     "id": 63,
-    "name": "dolphin"
+    "name": "bubble_pop"
   },
   {
     "id": 64,
-    "name": "campfire_cosy_smoke"
+    "name": "current_down"
   },
   {
     "id": 65,
-    "name": "campfire_signal_smoke"
+    "name": "bubble_column_up"
   },
   {
     "id": 66,
-    "name": "dripping_honey"
+    "name": "nautilus"
   },
   {
     "id": 67,
-    "name": "falling_honey"
+    "name": "dolphin"
   },
   {
     "id": 68,
-    "name": "landing_honey"
+    "name": "campfire_cosy_smoke"
   },
   {
     "id": 69,
-    "name": "falling_nectar"
+    "name": "campfire_signal_smoke"
   },
   {
     "id": 70,
-    "name": "falling_spore_blossom"
+    "name": "dripping_honey"
   },
   {
     "id": 71,
-    "name": "ash"
+    "name": "falling_honey"
   },
   {
     "id": 72,
-    "name": "crimson_spore"
+    "name": "landing_honey"
   },
   {
     "id": 73,
-    "name": "warped_spore"
+    "name": "falling_nectar"
   },
   {
     "id": 74,
-    "name": "spore_blossom_air"
+    "name": "falling_spore_blossom"
   },
   {
     "id": 75,
-    "name": "dripping_obsidian_tear"
+    "name": "ash"
   },
   {
     "id": 76,
-    "name": "falling_obsidian_tear"
+    "name": "crimson_spore"
   },
   {
     "id": 77,
-    "name": "landing_obsidian_tear"
+    "name": "warped_spore"
   },
   {
     "id": 78,
-    "name": "reverse_portal"
+    "name": "spore_blossom_air"
   },
   {
     "id": 79,
-    "name": "white_ash"
+    "name": "dripping_obsidian_tear"
   },
   {
     "id": 80,
-    "name": "small_flame"
+    "name": "falling_obsidian_tear"
   },
   {
     "id": 81,
-    "name": "snowflake"
+    "name": "landing_obsidian_tear"
   },
   {
     "id": 82,
-    "name": "dripping_dripstone_lava"
+    "name": "reverse_portal"
   },
   {
     "id": 83,
-    "name": "falling_dripstone_lava"
+    "name": "white_ash"
   },
   {
     "id": 84,
-    "name": "dripping_dripstone_water"
+    "name": "small_flame"
   },
   {
     "id": 85,
-    "name": "falling_dripstone_water"
+    "name": "snowflake"
   },
   {
     "id": 86,
-    "name": "glow_squid_ink"
+    "name": "dripping_dripstone_lava"
   },
   {
     "id": 87,
-    "name": "glow"
+    "name": "falling_dripstone_lava"
   },
   {
     "id": 88,
-    "name": "wax_on"
+    "name": "dripping_dripstone_water"
   },
   {
     "id": 89,
-    "name": "wax_off"
+    "name": "falling_dripstone_water"
   },
   {
     "id": 90,
-    "name": "electric_spark"
+    "name": "glow_squid_ink"
   },
   {
     "id": 91,
-    "name": "scrape"
+    "name": "glow"
   },
   {
     "id": 92,
+    "name": "wax_on"
+  },
+  {
+    "id": 93,
+    "name": "wax_off"
+  },
+  {
+    "id": 94,
+    "name": "electric_spark"
+  },
+  {
+    "id": 95,
+    "name": "scrape"
+  },
+  {
+    "id": 96,
     "name": "shriek"
+  },
+  {
+    "id": 97,
+    "name": "egg_crack"
+  },
+  {
+    "id": 98,
+    "name": "dust_plume"
+  },
+  {
+    "id": 99,
+    "name": "gust_dust"
+  },
+  {
+    "id": 100,
+    "name": "trial_spawner_detection"
   }
 ]
