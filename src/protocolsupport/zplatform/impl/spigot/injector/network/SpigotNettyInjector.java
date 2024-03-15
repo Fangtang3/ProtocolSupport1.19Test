@@ -9,7 +9,7 @@ import java.util.ListIterator;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
 import net.minecraft.network.NetworkManager;
-import net.minecraft.network.chat.ChatComponentText;
+import net.minecraft.mc_.network.chat.ChatComponentText;
 import net.minecraft.server.network.ServerConnection;
 import protocolsupport.utils.reflection.ReflectionUtils;
 import protocolsupport.zplatform.impl.spigot.SpigotMiscUtils;

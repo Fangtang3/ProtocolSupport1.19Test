@@ -1,11 +1,11 @@
 package protocolsupport.zplatform.impl.spigot.network.handler;
 
-import net.minecraft.network.NetworkManager;
-import net.minecraft.network.chat.IChatBaseComponent;
-import net.minecraft.network.protocol.login.PacketLoginInCustomPayload;
-import net.minecraft.network.protocol.login.PacketLoginInEncryptionBegin;
-import net.minecraft.network.protocol.login.PacketLoginInListener;
-import net.minecraft.network.protocol.login.PacketLoginInStart;
+import net.minecraft.mc_.network.NetworkManager;
+import net.minecraft.mc_.network.chat.IChatBaseComponent;
+import net.minecraft.mc_.network.protocol.login.PacketLoginInCustomPayload;
+import net.minecraft.mc_.network.protocol.login.PacketLoginInEncryptionBegin;
+import net.minecraft.mc_.network.protocol.login.PacketLoginInListener;
+import net.minecraft.mc_.network.protocol.login.PacketLoginInStart;
 import protocolsupport.protocol.packet.handler.AbstractLoginListenerBlackhole;
 import protocolsupport.zplatform.impl.spigot.network.SpigotNetworkManagerWrapper;
 import protocolsupport.zplatform.network.NetworkManagerWrapper;
