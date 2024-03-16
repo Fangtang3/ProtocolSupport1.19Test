@@ -22,11 +22,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Set up JDK 21.0.2
+    - name: Set up JDK
       uses: actions/setup-java@v4
       with:
         java-version: '22-ea'
-        distribution: 'corretto'
+        distribution: 'adoptium'
 
     # Configure Gradle for optimal use in GiHub Actions, including caching of downloaded dependencies.
     # See: https://github.com/gradle/actions/blob/main/setup-gradle/README.md
@@ -59,7 +59,7 @@ jobs:
       uses: actions/setup-java@v4
       with:
         java-version: '22-ea'
-        distribution: 'corretto'
+        distribution: 'adoptium'
 
     # Generates and submits a dependency graph, enabling Dependabot Alerts for all project dependencies.
     # See: https://github.com/gradle/actions/blob/main/dependency-submission/README.md
